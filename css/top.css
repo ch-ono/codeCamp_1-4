@@ -1,0 +1,39 @@
+/* ==========================================================================
+トップページ独自のパーツの設定
+========================================================================== */
+
+.key-visual{
+    background-image: url("/images/top_img_001.jpg");
+    width: 1200px;
+    height: 400px;
+    padding: 180px 0 0 34px;
+    font-size: 36px;
+    font-family: "Hiragino Kaku Gothic ProN";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-shadow: 0px 0px 10px rgba(55, 55, 55, 0.73);
+}
+  
+.foreword{
+    text-align: center;
+    background: #fff;
+    padding: 38px 0;
+}
+
+.foreword__title{
+    font-size: 36px;
+}
+
+.foreword__img{
+    display: block;
+    height: 224px;
+    width: 580px;
+    margin: 36px auto;
+}
+.foreword__descreption {
+    font-size: 14px;
+}
+
+.foreword__link {
+    font-size: 14px;
+}
