@@ -13,46 +13,41 @@
     line-height: 1.2;
     text-shadow: 0px 0px 10px rgba(55, 55, 55, 0.73);
 }
-  
-/* .content{
-    text-align: center;
-    padding: 38px 0 44px 0;
-} */
-
-.content__foreword{
-    text-align: center;
-    padding: 38px 0 44px 0;
-    background: #fff;
-}
-
-.content__payment {
-    text-align: center;
-    padding: 38px 0 44px 0;
-    background: #FAFAFA;
-}
-
-.content__review {
-    text-align: center;
-    padding: 65px 0 60px 0;
-    background: #fff;
-}
-
-.content__download {
-    text-align: center;
-    padding: 30px 0;
-    background: #FAFAFA;
-}
-
-.content__below-download {
-    text-align: left; 
-    padding: 46px 40px 40px 40px;
-    background: #fff;  
-}
 
 .content__title{
     font-size: 36px;
     font-weight: bold;
     letter-spacing: 0.2rem;
+}
+
+.content__link {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.content__item {
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #b4b4b4;    
+}
+
+.divider {
+    height: 1px;
+    width: 10px;
+    margin: 6px 0;
+    background-color: #C4C4C4;
+}
+
+
+.font--gray {
+    color: #7B7B7B;
+}
+
+/* foreword */
+.content__foreword{
+    text-align: center;
+    padding: 38px 0 44px 0;
+    background: #fff;
 }
 
 .foreword__img{
@@ -61,6 +56,14 @@
     width: 580px;
     margin: 36px auto;
 }
+
+/* payment */
+.content__payment {
+    text-align: center;
+    padding: 38px 0 44px 0;
+    background: #FAFAFA;
+}
+
 .content__description, .payment-item__description{
     font-size: 14px;
 }
@@ -69,11 +72,6 @@
     font-size: 14px;
     font-weight: bold;
     margin: 5px 0;
-}
-
-.content__link {
-    font-size: 14px;
-    font-weight: bold;
 }
 
 .payment__img {
@@ -91,16 +89,17 @@
     margin: 20px 0 40px 0;
 }
 
-.content__item {
-    border-radius: 10px;
-    background-color: #fff;
-    box-shadow: 0 0 10px #b4b4b4;    
-}
-
 .content__payment-item {
     width: 195px;
     padding: 15px;
     margin: 10px 0;
+}
+
+/* review */
+.content__review {
+    text-align: center;
+    padding: 65px 0 60px 0;
+    background: #fff;
 }
 
 .content__review-item {
@@ -134,13 +133,6 @@
     background-repeat: no-repeat;
 }
 
-.divider {
-    height: 1px;
-    width: 10px;
-    margin: 6px 0;
-    background-color: #C4C4C4;
-}
-
 .content__review .content__item--description {
     /* min-width: 530px; */
     padding: 18px 20px 10px 20px;
@@ -153,8 +145,11 @@
     margin: 50px 0;
 }
 
-.font--gray {
-    color: #7B7B7B;
+/* download */
+.content__download {
+    text-align: center;
+    padding: 30px 0;
+    background: #FAFAFA;
 }
 
 .button__download{
@@ -165,6 +160,17 @@
     font-size: 14px;
     border-radius: 10px;
     box-shadow: 0 0 10px #b4b4b4;  
+}
+
+.button__download:hover {
+    background-color: #727ed3;
+}
+
+/* below-download */
+.content__below-download {
+    text-align: left; 
+    padding: 46px 40px 40px 40px;
+    background: #fff;  
 }
 
 .content__below-download .content__description {
