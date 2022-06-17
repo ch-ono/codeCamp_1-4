@@ -17,6 +17,7 @@
 .content__title{
     font-size: 36px;
     font-weight: bold;
+    margin-bottom: 5px;
     letter-spacing: 0.2rem;
 }
 
@@ -46,7 +47,7 @@
 /* foreword */
 .content__foreword{
     text-align: center;
-    padding: 38px 0 44px 0;
+    padding: 38px 0 41px 0;
     background: #fff;
 }
 
@@ -86,7 +87,7 @@
     display: flex;
     justify-content: center;
     gap: 40px;
-    margin: 20px 0 40px 0;
+    margin: 15px 0 40px 0;
 }
 
 .content__payment-item {
@@ -98,7 +99,7 @@
 /* review */
 .content__review {
     text-align: center;
-    padding: 65px 0 60px 0;
+    padding: 65px 0 55px 0;
     background: #fff;
 }
 
@@ -135,14 +136,14 @@
 
 .content__review .content__item--description {
     /* min-width: 530px; */
-    padding: 18px 20px 10px 20px;
+    padding: 20px 20px 10px 20px;
     text-align: left;
     font-size: 14px;
     word-wrap:break-word;
 }
 
 .content__review-table {
-    margin: 50px 0;
+    margin: 40px 0 50px;
 }
 
 /* download */
@@ -153,8 +154,8 @@
 }
 
 .button__download{
-    padding: 13px 63px;
-    margin: 28px 0 6px 0;
+    padding: 13px 62px;
+    margin: 25px 0 6px 0;
     color: #fff;
     background-color: #3A47B1;
     font-size: 14px;
